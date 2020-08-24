@@ -5,7 +5,7 @@ def find_max_value(array)
     if (array[count] > array[count+1]) && (array[count] > new.to_i)
       new = array[count]
     end
-    if (array[count] < array[count+1]) && (array[count] > new.to_i)
+    if (array[count] < array[count+1]) && (array[count+1] > new.to_i)
       new = array[count+1]
     end
 
